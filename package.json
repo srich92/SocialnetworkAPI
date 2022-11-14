@@ -1,0 +1,33 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon",
+    "seed": "node seeders/seeds.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.25.3",
+    "bcrypt": "^4.0.1",
+    "faker": "^4.1.0",
+    "graphql": "^15.8.0",
+    "mongoose": "^5.9.9",
+    "react-router-dom": "^5.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srich92/SocialnetworkAPI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/srich92/SocialnetworkAPI/issues"
+  },
+  "homepage": "https://github.com/srich92/SocialnetworkAPI#readme"
+}
